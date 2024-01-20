@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Samantha Archer"
   avatar           : "headshot.JPG"
-  bio              : "PhD Student at Stanford University"
-  location         : "Palo Alto, California"
+  bio              : "PhD Student"
   employer         : "Stanford University"
+  location         : "Palo Alto, California"
   pubmed           : 
   googlescholar    : 
   email            : "samanthaarcher at stanford dot edu"
