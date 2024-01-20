@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Samantha Archer"
-  avatar           : "images/headshot.JPG"
+  avatar           : "headshot.JPG"
   bio              : "PhD Student"
   location         : "Stanford University"
   employer         :
