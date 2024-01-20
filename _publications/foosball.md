@@ -1,7 +1,7 @@
 ---
 title: "Foosball Coding: Correcting Shift Errors and Bit Flip Errors in 3D Racetrack Memory"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink:
 excerpt: 
 date: 2020-06-29
 venue: '2020 50th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)'
