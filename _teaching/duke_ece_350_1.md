@@ -1,5 +1,5 @@
 ---
-title: "ECE 350 Digital Systems: Teaching Assistant"
+title: "ECE 350: Digital Systems (Teaching Assistant)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/duke_ece350_1
