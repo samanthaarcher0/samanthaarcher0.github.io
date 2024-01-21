@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/duke_ece350
 venue: "Duke University, Electrical & Computer Engineering Department"
-date: 2017 Fall
+date: 2019-08
 location: "Durham, North Carolina"
 ---
 
