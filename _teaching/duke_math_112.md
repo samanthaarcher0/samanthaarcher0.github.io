@@ -1,5 +1,5 @@
 ---
-title: "Math 112L Laboratory Calculus II"
+title: "Math 112L Laboratory Calculus II: Teaching Assistant"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/duke_math_112
@@ -8,4 +8,4 @@ date: 2017-01-05
 location: "Durham, North Carolina"
 ---
 
-Lab  Instructor and Undergraduate Teaching Assistant
+Lab Section Instructor and Undergraduate Teaching Assistant
