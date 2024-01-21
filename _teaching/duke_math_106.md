@@ -1,5 +1,5 @@
 ---
-title: "Math 106: Laboratory Calculus and Functions II"
+title: "Math 106 Laboratory Calculus and Functions II: Teaching Assistant"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/duke_math_106
