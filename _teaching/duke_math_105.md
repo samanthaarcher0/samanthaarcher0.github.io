@@ -1,5 +1,5 @@
 ---
-title: "Math 105: Laboratory Calculus and Functions I (Teaching Assistant)"
+title: "Math 105L: Laboratory Calculus and Functions I (Teaching Assistant)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/duke_math_105
