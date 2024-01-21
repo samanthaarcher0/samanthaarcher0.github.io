@@ -3,9 +3,9 @@ title: "Math 105: Laboratory Calculus and Functions I"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/duke_math_105
-venue: "University 1, Department"
+venue: "Duke University, Mathematics Department"
 date: 2017 Fall
-location: "Duke University, Durham, North Carolina"
+location: "Durham, North Carolina"
 ---
 
 Lab  Instructor and Undergraduate Teaching Assistant
