@@ -2,7 +2,7 @@
 title: "ECE 350: Digital Systems (Teaching Assistant)"
 collection: teaching
 type: "Undergraduate course"
-permalink: 
+permalink: /teaching/duke_ece350_1
 venue: "Duke University, Electrical & Computer Engineering Department"
 date: 2020-01-05
 location: "Durham, North Carolina"
