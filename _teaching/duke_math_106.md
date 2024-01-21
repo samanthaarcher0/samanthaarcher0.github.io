@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/duke_math_106
 venue: "Duke University, Mathematics Department"
-date: 2018 Spring
+date: 2018-01-05
 location: "Durham, North Carolina"
 ---
 
