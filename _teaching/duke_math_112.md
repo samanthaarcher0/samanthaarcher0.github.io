@@ -1,5 +1,5 @@
 ---
-title: "Math 112L Laboratory Calculus II: Teaching Assistant"
+title: "Math 112L: Laboratory Calculus II (Teaching Assistant)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/duke_math_112
