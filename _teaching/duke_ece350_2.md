@@ -1,10 +1,10 @@
 ---
-title: "ECE 280: Digital Systems"
+title: "ECE 350: Digital Systems"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/duke_ece350
 venue: "Duke University, Electrical & Computer Engineering Department"
-date: 2019-08-20
+date: 2020-01-05
 location: "Durham, North Carolina"
 ---
 
