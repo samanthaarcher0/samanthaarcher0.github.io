@@ -1,5 +1,5 @@
 ---
-title: "ECE 280: Digital Systems"
+title: "ECE 350: Digital Systems"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/duke_ece350_1
