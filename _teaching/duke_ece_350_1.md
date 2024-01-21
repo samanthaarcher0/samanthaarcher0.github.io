@@ -1,5 +1,5 @@
 ---
-title: "ECE 350: Digital Systems"
+title: "ECE 350 Digital Systems: Teaching Assistant"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/duke_ece350_1
@@ -8,5 +8,5 @@ date: 2019-08-20
 location: "Durham, North Carolina"
 ---
 
-Lab  Instructor and Undergraduate Teaching Assistant
+Lab Section Instructor and Teaching Assistant
 
