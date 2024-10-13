@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-[CV](http://samanthaarcher0.github.io/files/CV_Samantha_Archer_Summer24.pdf')
+[CV](http://samanthaarcher0.github.io/files/CV_Samantha_Archer_Fall24.pdf 'CV - Samantha Archer')
