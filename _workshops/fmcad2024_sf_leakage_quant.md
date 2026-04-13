@@ -1,5 +1,6 @@
 ---
 title: "SymLeak: Quantifying Side Channel Leakage with Symbolic Execution"
+authors: "Samantha Archer, Mohammad Rahmani Fadiheh, and Caroline Trippel"
 collection: workshops
 permalink:
 excerpt: 

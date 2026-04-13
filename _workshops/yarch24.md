@@ -1,5 +1,6 @@
 ---
 title: "Quantifying Software Leakage via Transmitters with Leakage Functions"
+authors: "Samantha Archer, Mohammad Rahmani Fadiheh, and Caroline Trippel"
 collection: workshops
 permalink:
 excerpt: 

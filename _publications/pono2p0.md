@@ -1,5 +1,6 @@
 ---
 title: "Pono 2.0: A Versatile SMT-Based Model Checker for Safety and Liveness"
+authors: "Áron Ricardo Perez-Lopez, Po-Chun Chien, Florian Lonsing, Samantha Archer, Ahmed Irfan, and Clark Barrett"
 collection: publications
 permalink:
 excerpt: 

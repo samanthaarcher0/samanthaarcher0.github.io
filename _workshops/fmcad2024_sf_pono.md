@@ -1,6 +1,6 @@
 ---
 title: "Word-Level Model Checking with IC3 in Pono"
-authors: "Áron Ricardo Perez-Lopez, Samantha Archer and Clark Barrett"
+authors: "Áron Ricardo Perez-Lopez, Samantha Archer, and Clark Barrett"
 collection: workshops
 permalink:
 excerpt: 

@@ -1,5 +1,6 @@
 ---
 title: "Foosball Coding: Correcting Shift Errors and Bit Flip Errors in 3D Racetrack Memory"
+author: "Samantha Archer, Georgios Mappouras, Robert Calderbank, and Daniel Sorin"
 collection: publications
 permalink:
 excerpt: 
