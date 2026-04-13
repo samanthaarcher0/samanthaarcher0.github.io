@@ -1,6 +1,6 @@
 ---
 title: "SymLeak: Quantifying Side Channel Leakage with Symbolic Execution"
-collection: publications
+collection: workshops
 permalink:
 excerpt: 
 date: 2024-10-14
