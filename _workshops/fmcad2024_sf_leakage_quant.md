@@ -6,7 +6,7 @@ permalink:
 excerpt: 
 date: 2024-10-14
 workshop: 'Student Forum Workshop'
-venue: '2024 Formal Methods in Computer-Aided Design (FMCAD 2024)'
+venue: 'Formal Methods in Computer-Aided Design 2024 (FMCAD 2024)'
 paperurl: 'https://github.com/samanthaarcher0/samanthaarcher0.github.io/blob/master/files/fmcad_student_forum2024.pdf'
 citation: ''
 ---
