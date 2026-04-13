@@ -42,7 +42,7 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-5;
+  font-size: 0.9em;
 
   a + a {
     opacity: 0.5;
@@ -57,7 +57,8 @@
     border-bottom: none;
   }
 
-  .archive__item p {
+  article.archive__item p {
+    margin-top: 0;
     margin-bottom: 0.25em;
   }
 }
