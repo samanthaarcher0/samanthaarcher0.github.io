@@ -42,7 +42,7 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
-  font-size: 0.9em;
+  font-size: 1em;
 
   a + a {
     opacity: 0.5;
@@ -58,8 +58,8 @@
   }
 
   article.archive__item p {
-    margin-top: 0;
-    margin-bottom: 0.25em;
+    margin-top: 0 !important;
+    margin-bottom: 0.1em !important;
   }
 }
 
