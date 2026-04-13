@@ -12,8 +12,13 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% assign is_pub = false %}
+{% if post.collection == 'publications' or post.collection == 'workshops' %}
+  {% assign is_pub = true %}
+{% endif %}
+
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if is_pub %} pub-item{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -26,44 +31,36 @@
       </div>
     {% endif %}
 
+    <h2 class="archive__item-title" itemprop="headline">{{ title }}</h2>
 
-    <h2 class="archive__item-title" itemprop="headline">
-      {{ title }}
-    </h2>
-    
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-        {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          {% if post.authors %}
-            <p>{{ post.authors | replace: "Samantha Archer", "<strong>Samantha Archer</strong>" }}</p>
-          {% endif %}
-          <p>Conference: <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%M, %Y" }} </p>
-        {% elsif post.collection == 'workshops' %}
-          {% if post.authors %}
-            <p>{{ post.authors | replace: "Samantha Archer", "<strong>Samantha Archer</strong>" }}</p>
-          {% endif %}
-          <p>{{ post.workshop }} in conjuction with <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%M, %Y" }} </p>
-        {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+    {% if post.collection == 'teaching' %}
+      <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+    {% elsif post.collection == 'publications' %}
+      {% if post.authors %}
+        <p class="pub-authors">{{ post.authors | replace: "Samantha Archer", "<strong>Samantha Archer</strong>" }}</p>
+      {% endif %}
+      <p class="pub-venue">
+        <em>{{ post.venue }}</em>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.paperurl %} <a class="pub-link" href="{{ post.paperurl }}">PDF</a>{% endif %}
+      </p>
+    {% elsif post.collection == 'workshops' %}
+      {% if post.authors %}
+        <p class="pub-authors">{{ post.authors | replace: "Samantha Archer", "<strong>Samantha Archer</strong>" }}</p>
+      {% endif %}
+      <p class="pub-venue">
+        {% if post.workshop %}<em>{{ post.workshop }}</em> at {% endif %}<em>{{ post.venue }}</em>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.paperurl %} <a class="pub-link" href="{{ post.paperurl }}">PDF</a>{% endif %}
+      </p>
+    {% elsif post.date %}
+      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+    {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
-    
-    {% if post.citation and post.paperurl %}
-      <p>{{ post.citation }} </p>
-      <p><a href=" {{ post.paperurl }} "><u>Download</u></a></p>
-    {% elsif post.citation %}
-      <p>{{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} "><u>Download</u></a></p>
+      <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
   </article>
