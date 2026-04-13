@@ -6,7 +6,6 @@ permalink: /teaching/duke_ece350_1
 venue: "Duke University, Electrical & Computer Engineering Department"
 date: 2019-08-20
 location: "Durham, North Carolina"
+role: "Lab Section Instructor and Teaching Assistant"
 ---
-
-Lab Section Instructor and Teaching Assistant
 

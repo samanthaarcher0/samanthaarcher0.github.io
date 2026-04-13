@@ -6,6 +6,5 @@ permalink: /teaching/duke_math_112_1
 venue: "Duke University, Mathematics Department"
 date: 2017-01-05
 location: "Durham, North Carolina"
+role: "Lab Section Instructor and Teaching Assistant"
 ---
-
-Lab Section Instructor and Undergraduate Teaching Assistant
