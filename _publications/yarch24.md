@@ -1,6 +1,6 @@
 ---
 title: "Quantifying Software Leakage via Transmitters with Leakage Functions"
-collection: publications
+collection: workshops
 permalink:
 excerpt: 
 date: 2024-04-28
