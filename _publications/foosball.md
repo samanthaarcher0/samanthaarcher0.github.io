@@ -5,6 +5,6 @@ collection: publications
 permalink:
 excerpt: 
 date: 2020-06-29
-venue: '2020 50th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)'
+venue: '2020 50th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2020)'
 paperurl: 'http://samanthaarcher0.github.io/files/Foosball_Coding_Correcting_Shift_Errors_and_Bit_Flip_Errors_in_3D_Racetrack_Memory.pdf'
 ---
