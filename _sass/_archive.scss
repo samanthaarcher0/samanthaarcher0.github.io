@@ -84,6 +84,16 @@
   }
 }
 
+.page__content .archive__item {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
 
 /*
    List view
