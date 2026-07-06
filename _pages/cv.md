@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-<a class="pub-link" href="http://samanthaarcher0.github.io/files/CV_Samantha_Archer_Winter25.pdf">PDF</a>
+<a class="pub-link" href="http://samanthaarcher0.github.io/files/CV_Samantha_Archer_Summer26.pdf">PDF</a>
