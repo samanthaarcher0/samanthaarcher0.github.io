@@ -47,6 +47,7 @@
       <p class="pub-venue">
         <em>{{ post.venue }}</em>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}
       </p>
+      {% if post.award %}<p class="pub-venue"><strong>{{ post.award }}</strong></p>{% endif %}
       {% if post.paperurl %}<p class="pub-links"><a class="pub-link" href="{{ post.paperurl }}">PDF</a></p>{% endif %}
     {% elsif post.collection == 'workshops' %}
       {% if post.authors %}
