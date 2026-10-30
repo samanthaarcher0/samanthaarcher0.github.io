@@ -14,14 +14,14 @@ author_profile: true
 {% assign talks = site.talks | sort: "date" | reverse %}
 {% for talk in talks %}
 <div class="list__item">
-  <article class="archive__item">
+  <article class="archive__item pub-item">
     <h2 class="archive__item-title">{{ talk.title }}</h2>
-    <ul>
+    {% if talk.note %}<p class="pub-authors">{{ talk.note }}</p>{% endif %}
+    <ul class="talk-venues">
       {% for venue in talk.venues %}
-      <li>{{ venue.name }}, {{ venue.date }}</li>
+      <li class="pub-venue"><em>{{ venue.name }}</em>, {{ venue.date }}</li>
       {% endfor %}
     </ul>
-    {% if talk.note %}<p>{{ talk.note }}</p>{% endif %}
   </article>
 </div>
 {% endfor %}
